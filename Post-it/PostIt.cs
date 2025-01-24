@@ -37,6 +37,11 @@ namespace Post_it
             }
         }
 
+        public int Hossz
+        {
+            get => this.tartalom.Length;
+        }
+
         public override string ToString()
         {
             return $"szín: {this.szin}  tartalom: {this.tartalom}";
